@@ -1,14 +1,14 @@
 {
-  "name": "APPNAME",
+  "name": "obby",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b",
-    "test": "pnpm --filter @APPNAME/web test"
+    "dev": "pnpm --filter @obby/web dev",
+    "build": "pnpm --filter @obby/web build",
+    "preview": "pnpm --filter @obby/web preview",
+    "typecheck": "pnpm --filter @obby/web exec tsc -b",
+    "test": "pnpm --filter @obby/web test"
   }
 }
